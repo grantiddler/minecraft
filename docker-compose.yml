@@ -1,0 +1,43 @@
+version: '3'
+
+services:
+  minceraft:
+    container_name: minceraft
+    image: itzg/minecraft-server
+    environment:
+      EULA: "true"
+    expose:
+      - "25565"
+    volumes:
+      - ./data/server1/world:/data
+    stdin_open: true
+    tty: true
+    restart: unless-stopped
+
+  stinker:
+    container_name: stinker
+    image: itzg/minecraft-server
+    environment:
+      EULA: "true"
+    expose:
+      - "25565"
+    volumes:
+      - ./data/server2/world:/data
+    stdin_open: true
+    tty: true
+    restart: unless-stopped
+
+  infrared:
+    image: ghcr.io/haveachin/infrared:1.3.3
+    container_name: infrared
+    restart: unless-stopped
+    stdin_open: true
+    tty: true
+    ports:
+      - "25565:25565"
+    volumes:
+      - "./data/configs:/configs"
+    expose:
+      - "25565"
+    environment:
+      INFRARED_CONFIG_PATH: "/configs"

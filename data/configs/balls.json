@@ -1,0 +1,10 @@
+
+{
+  "domainName": "balls.exposed",
+  "proxyTo": "minceraft:25565",
+  "listenTo": ":25565",
+  "disconnectMessage": "gas",
+  "offlineStatus": {
+    "motd": "server offline"
+  }
+}

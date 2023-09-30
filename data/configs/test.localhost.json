@@ -1,0 +1,10 @@
+
+{
+  "domainName": "test.balls",
+  "proxyTo": "stinker:25565",
+  "listenTo": ":25565",
+  "disconnectMessage": "no",
+  "offlineStatus": {
+    "motd": "something something racoons something intestinal instability"
+  }  
+}

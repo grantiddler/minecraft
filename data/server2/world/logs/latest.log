@@ -1,0 +1,50 @@
+[04:50:47] [ServerMain/INFO]: Environment: Environment[accountsHost=https://api.mojang.com, sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[04:50:48] [ServerMain/INFO]: Loaded 7 recipes
+[04:50:49] [ServerMain/INFO]: Loaded 1271 advancements
+[04:50:49] [Server thread/INFO]: Starting minecraft server version 1.20.2
+[04:50:49] [Server thread/INFO]: Loading properties
+[04:50:49] [Server thread/INFO]: Default game type: SURVIVAL
+[04:50:49] [Server thread/INFO]: Generating keypair
+[04:50:49] [Server thread/INFO]: Starting Minecraft server on *:25565
+[04:50:50] [Server thread/INFO]: Using epoll channel type
+[04:50:50] [Server thread/INFO]: Preparing level "world"
+[04:50:53] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[04:50:58] [Worker-Main-11/INFO]: Preparing spawn area: 0%
+[04:50:58] [Worker-Main-11/INFO]: Preparing spawn area: 0%
+[04:50:58] [Worker-Main-11/INFO]: Preparing spawn area: 0%
+[04:50:58] [Worker-Main-11/INFO]: Preparing spawn area: 0%
+[04:50:58] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[04:50:58] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[04:50:58] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[04:50:58] [Worker-Main-11/INFO]: Preparing spawn area: 0%
+[04:50:58] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[04:50:58] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[04:50:58] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[04:50:58] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[04:50:59] [Worker-Main-5/INFO]: Preparing spawn area: 2%
+[04:50:59] [Worker-Main-10/INFO]: Preparing spawn area: 19%
+[04:51:00] [Worker-Main-3/INFO]: Preparing spawn area: 50%
+[04:51:00] [Worker-Main-5/INFO]: Preparing spawn area: 68%
+[04:51:01] [Worker-Main-6/INFO]: Preparing spawn area: 84%
+[04:51:01] [Worker-Main-1/INFO]: Preparing spawn area: 89%
+[04:51:02] [Worker-Main-10/INFO]: Preparing spawn area: 95%
+[04:51:02] [Server thread/INFO]: Time elapsed: 9277 ms
+[04:51:02] [Server thread/INFO]: Done (12.318s)! For help, type "help"
+[04:51:02] [Server thread/INFO]: Starting remote control listener
+[04:51:02] [Server thread/INFO]: Thread RCON Listener started
+[04:51:02] [Server thread/INFO]: RCON running on 0.0.0.0:25575
+[16:04:15] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5389ms or 107 ticks behind
+[16:41:56] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
+[16:41:56] [Server thread/INFO]: [Rcon: Stopping the server]
+[16:41:56] [RCON Client /127.0.0.1 #2/INFO]: Thread RCON Client /127.0.0.1 shutting down
+[16:41:56] [Server thread/INFO]: Stopping server
+[16:41:56] [Server thread/INFO]: Saving players
+[16:41:56] [Server thread/INFO]: Saving worlds
+[16:41:57] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[16:42:05] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[16:42:05] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[16:42:05] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[16:42:05] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[16:42:05] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[16:42:05] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[16:42:05] [Server thread/INFO]: Thread RCON Listener stopped
