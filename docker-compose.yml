@@ -10,7 +10,7 @@ services:
     expose:
       - "25565"
     volumes:
-      - ./data/server1/world:/data
+      - /minecraft_data/server1/world:/data
     stdin_open: true
     tty: true
     restart: unless-stopped
@@ -24,7 +24,7 @@ services:
     expose:
       - "25565"
     volumes:
-      - ./data/server2/world:/data
+      - /minecraft_data/server2/world:/data
     stdin_open: true
     tty: true
     restart: unless-stopped
