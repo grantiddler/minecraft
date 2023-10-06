@@ -19,6 +19,7 @@ services:
     image: itzg/minecraft-server
     environment:
       EULA: "true"
+      MAX_MEMORY: 8G
     expose:
       - "25565"
     volumes:
