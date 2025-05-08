@@ -6,25 +6,25 @@ services:
     image: itzg/minecraft-server
     environment:
       EULA: "true"
-      MAX_MEMORY: 8G
+      MAX_MEMORY: 16G
     expose:
       - "25565"
     volumes:
-      - /minecraft_data/server1/world:/data
+      - /minecraft_data/summer-2025/world:/data
     stdin_open: true
     tty: true
     restart: unless-stopped
 
   stinker:
-    container_name: stinker
+    container_name: archive-1
     image: itzg/minecraft-server
     environment:
       EULA: "true"
-      MAX_MEMORY: 8G
+      MAX_MEMORY: 4G
     expose:
       - "25565"
     volumes:
-      - /minecraft_data/server2/world:/data
+      - /minecraft_data/server1/world:/data
     stdin_open: true
     tty: true
     restart: unless-stopped
