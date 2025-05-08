@@ -1,10 +1,10 @@
 
 {
-  "domainName": "archive-1.balls.exposed",
-  "proxyTo": "stinker:25565",
+  "domainName": "archive0.balls.exposed",
+  "proxyTo": "archive-1:25565",
   "listenTo": ":25565",
-  "disconnectMessage": "no",
+  "disconnectMessage": "gas",
   "offlineStatus": {
-    "motd": "stink"
-  }  
+    "motd": "server offline"
+  }
 }
